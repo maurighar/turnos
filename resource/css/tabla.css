@@ -1,0 +1,84 @@
+table,
+td {
+	border: 1px solid silver;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 15px auto;
+}
+
+th, td {
+	vertical-align: center;
+	font-family: Tahoma;
+	font-size: 1em;
+	padding: 3px ;
+}
+
+tr:nth-child(2n+1)  {
+	background: #DFFFFF;
+}
+
+tr:nth-child(2n+0)  {
+	background: #FFF;
+}
+
+tbody tr:hover {
+	background: #BDC3C7;
+}
+
+
+
+thead th,
+tfoot td {
+	background: #474747;
+	font-weight: bold;
+	color: #fff;
+}
+
+
+
+th.estado {
+	width: 70px;
+}
+
+th.tipo_fecha {
+	width: 60px;
+}
+
+
+
+
+
+
+
+
+/*----------------------------------------------------*/
+td.pinta_rojo {
+	background-color: #FF0000;
+}
+
+td.pinta_verde {
+	background-color: #5EB05B;
+}
+
+td.dominio {
+	width: 60px;
+}
+
+td.dominioLista {
+	width: 140px;
+	font-family: Courier;
+}
+
+td.dcha {
+	text-align: right;
+}
+
+td.centrar {
+	text-align: center;
+}
+
+td.obserb {
+	width: 200px;
+}
